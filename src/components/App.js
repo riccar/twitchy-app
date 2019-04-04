@@ -8,6 +8,7 @@ import StreamShow from './streams/StreamShow';
 import Header from './header';
 
 const App = () => {
+  
   return (
     <div className="ui container">
       <BrowserRouter>
