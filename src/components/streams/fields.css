@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 2em;
+  justify-content: space-between;
+}
+
+.header .message {
+  height: 1em;
+  line-height: 0;
+  margin-left: 5px;
+}

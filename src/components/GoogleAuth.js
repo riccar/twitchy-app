@@ -13,7 +13,7 @@ class GoogleAuth extends React.Component {
         scope: 'email'
       }).then(() => {
         //init returns a promise. This is call during initialization
-        //Get a hold of the authorization instance
+        //Get a hold of the authorization instance (this.auth)
         this.auth = window.gapi.auth2.getAuthInstance();
         //Dispatch an action to initialize the state with the sign in status
         //This happens only once and it won't render the button if not executed
